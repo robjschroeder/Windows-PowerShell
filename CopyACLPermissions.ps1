@@ -1,0 +1,1 @@
+﻿$SourceACL = get-acl "C:\Program Files (x86)\TSS Tools" | set-acl -path 'C:\Tools'

@@ -1,0 +1,1 @@
+﻿$gaccounts = get-aduser -LDAPFilter "(SAMAccountName=g-*)" | %{$_.SamAccountName} | out-file "$env:userprofile\ADGuestAccounts.txt"
