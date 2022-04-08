@@ -1,5 +1,3 @@
-# Work in progress, DO NOT USE #
-
 # Import Modules
 if( -not (Get-Module Microsoft.Graph.Intune -ListAvailable)){
     # Microsoft Graph Intune module not installed, installing now...
